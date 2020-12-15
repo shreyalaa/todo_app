@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.heading{
+  text-shadow: 4px 4px 4px black;
+  font-size: 2cm;
+  background-color: brown;
+  box-shadow: 4px 4px 4px  black; 
+  border-radius: 50px 50px 50px ;
+}
+
+.todo{
+  background-color: rgb(221, 151, 59);
+  height: 15cm;
+  width: 16cm;
+  box-shadow: 4px 4px 4px black;
+  margin-left: 10cm;
+  
+}
+.input{
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: rgb(221, 151, 59) ;
+  max-width: 15cm;
+  outline: none;
+  font-size: .5cm;
+  font-family: cursive;
+
+}
+
+.list{
+  font-size: .5cm;
+  font-family: cursive;
+}
+
+
